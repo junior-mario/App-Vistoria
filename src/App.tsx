@@ -1,12 +1,11 @@
 // src/App.tsx
 
-import NetlifyTest from './NetlifyTest'; // Importa nosso novo componente
+import HomePage from './HomePage'; // Importa a nossa página
 
 function App() {
+  // O App agora simplesmente renderiza a nossa HomePage
   return (
-    <div className="App">
-      <NetlifyTest />
-    </div>
+    <HomePage />
   );
 }
 

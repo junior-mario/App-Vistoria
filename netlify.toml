@@ -1,0 +1,13 @@
+# Configurações de Build para o Netlify
+[build]
+  # O comando que o Netlify DEVE rodar para construir seu site
+  command = "npm run build"
+
+  # A pasta onde o site construído estará (para Vite é "dist")
+  publish = "dist"
+
+# Regra de Redirecionamento para aplicações React (resolve o erro "Page not found")
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

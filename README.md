@@ -1,2 +1,0 @@
-# App-Vistoria
-App-Vistoria
